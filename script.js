@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction () {
   let x = document.getElementById("hideandshowtext");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -6,14 +6,14 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-function displayPhrase() {
+function displayPhrase () {
     document.getElementById("changetext").innerHTML = 'text changed!';
 }
-function hideshowimage() {
-  var x = document.getElementById("hideandshowimage");
+function hideshowimage () {
+  let x = document.getElementById("hideandshowimage")
   if (x.style.display === "none") {
-    x.style.display = "block";
+    x.style.display = "block"
   } else {
-    x.style.display = "none";
+    x.style.display = "none"
   }
 }
